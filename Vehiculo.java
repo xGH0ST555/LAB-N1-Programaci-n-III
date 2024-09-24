@@ -10,5 +10,7 @@ package Operaciones;
  */
 public class Vehiculo
 {
-    
+ public int Tipo;
+ public String Color;
+ public String Placa;   
 }
