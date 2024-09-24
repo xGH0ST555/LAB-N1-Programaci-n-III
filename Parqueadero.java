@@ -9,5 +9,11 @@ package Operaciones;
  * @author HOME
  */
 public class Parqueadero {
-    
+    Vehiculo vh = new Vehiculo();
+    public void Ciclo (){
+        
+        for (int i = 0; i < 11; i++) 
+        {
+         vh.PedirDatos();
+        }
 }
