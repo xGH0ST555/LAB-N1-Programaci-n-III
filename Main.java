@@ -11,7 +11,8 @@ package Operaciones;
 public class Main {
     
     public static void main(String[] args) {
-        
+        Parqueadero pq = new Parqueadero();
+        pq.Ciclo(); 
     }
     
 }
