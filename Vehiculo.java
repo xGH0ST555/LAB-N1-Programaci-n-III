@@ -18,5 +18,7 @@ public class Vehiculo
 {  
    Tipo = Integer.parseInt(JOptionPane.showInputDialog("Tipo de vehiculo: \n1.Carro \n2.Camioneta"));
    Color = JOptionPane.showInputDialog("Escriba el color de Vehiculo");
+   Placa = JOptionPane.showInputDialog("Escribe la placa del vehiculo: ");
+ 
 }
 }
