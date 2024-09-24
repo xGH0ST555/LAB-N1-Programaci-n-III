@@ -12,5 +12,11 @@ public class Vehiculo
 {
  public int Tipo;
  public String Color;
- public String Placa;   
+ public String Placa; 
+
+ public void PedirDatos()
+{  
+   Tipo = Integer.parseInt(JOptionPane.showInputDialog("Tipo de vehiculo: \n1.Carro \n2.Camioneta"));
+   Color = JOptionPane.showInputDialog("Escriba el color de Vehiculo");
+}
 }
